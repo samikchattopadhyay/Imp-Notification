@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="js/imp-notification/imp-notification.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/imp-notification/imp-notification.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#test-button').click(function() {
+                    $(this).impnotification({
+                        text: '<h4>In hac habitasse</h4><p>platea dictumst. Nam at viverra dui! Cras lacinia, lacus vitae vestibulum sagittis, massa justo vestibulum ipsum, non euismod velit augue in metus. Aenean vel tellus quis mi rhoncus suscipit! Donec eleifend turpis eget mi cursus tempus.</p>',
+                        path: 'js/imp-notification/',
+                        duration: 5000
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <button id="test-button">Click</button>
+    </body>
+</html>

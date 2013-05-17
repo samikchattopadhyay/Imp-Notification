@@ -1,4 +1,1 @@
-Imp-Notification
-================
-
-This is a jQuery plugin to aware operators about some important notification
+This is a small jquery plugin utility which notifies on a new update from server. This can be controlled by an AJAX query or can be controlled by web sockets. This notification can also be opened using the HTML default event handlers. 
